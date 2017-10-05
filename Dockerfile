@@ -1,2 +1,2 @@
-FROM gliderlabs/alpine:3.3
-RUN apk --no-cache add git bash openssh
+FROM alpine:3.6
+RUN apk --no-cache add git git-subtree bash openssh
